@@ -8,10 +8,10 @@ class Solution {
         int cnt =0;
         for(int i=0; i<wallpaper.length; i++){
             String[] items = wallpaper[i].split("");
-            
             for(int j=0; j<items.length; j++){
                 if(items[j].equals("#")){
                     if(cnt == 0) {
+                        // 초기값 설정
                         start_x = i;
                         start_y = j;
                         cnt ++;
