@@ -11,5 +11,6 @@ public class Main {
 		int n2 = Integer.parseInt(st.nextToken());
 		int minus = n1 - n2;
 		System.out.print(minus);
+		br.close();
 	}
 }
